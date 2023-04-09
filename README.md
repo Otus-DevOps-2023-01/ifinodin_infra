@@ -4,6 +4,9 @@ ifinodin Infra repository
 bastion_IP = 158.160.47.165  
 someinternalhost_IP = 10.128.0.13
 
+testapp_IP = 51.250.69.139  
+testapp_port = 9292
+
 ### Connecting options:
 - ssh -i .ssh/otus-infra -J  appuser@158.160.47.165 appuser@10.128.0.13
 ### or
@@ -24,4 +27,5 @@ Host someinternalhost
 ```
 ### Add SSL for pritunl:
 #### - install certbot and complete dns challenge
-> unfortunately, we encountered a rate-limit error  and were unable to complete the TLS setup
+> unfortunately, we encountered a rate-limit error and were unable to complete the TLS setup
+
