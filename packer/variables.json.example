@@ -1,7 +1,6 @@
 {
-    "_comment": "packer build -var-file=variables.json ubuntu16.json"
-    "service_account_key_file": "",
-    "folder_id": "",
-    "source_image_id": "",
-    "subnet_id": ""
+    "service_account_key_file": "foo",
+    "folder_id": "bar",
+    "source_image_id": "baz",
+    "subnet_id": "buz"
 }
