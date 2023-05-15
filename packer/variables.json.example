@@ -1,5 +1,4 @@
 {
-    "service_account_key_file": "foo",
     "folder_id": "bar",
     "source_image_id": "baz",
     "subnet_id": "buz"
